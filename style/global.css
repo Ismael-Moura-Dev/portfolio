@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root{
-    --ForrestGreen: #228B22;
+    --blue: #6d8ce8;
     --grey21: #363636;
 }
 
@@ -29,7 +29,7 @@ li{
 }
 
 .btn{
-    background-color: var(--ForrestGreen);
+    background-color: var(--blue);
     padding: 0.8rem 1rem;
     min-width: 140px;
     display: inline-block;
@@ -76,7 +76,7 @@ nav .inner-content{
 }
 
 .logo span{
-    color: var(--ForrestGreen);
+    color: var(--blue);
 }
 
 nav ul {
@@ -90,7 +90,7 @@ nav ul li{
 }
 
 nav ul li:hover{
-    color: var(--ForrestGreen);
+    color: var(--blue);
     transform: translateY(-4px);
 }
 
@@ -129,7 +129,7 @@ header .left-side h2{
 }
 
 header .left-side h2 span{
-    color: var(--ForrestGreen);
+    color: var(--blue);
 }
 
 header .left-side .links, #portifolio .projects .project .links{
@@ -143,17 +143,18 @@ header .right-side{
 }
 
 header .right-side img{
-    max-width: 420px;
-    border-radius: 50%;
+    max-width: 350px;
+    border-radius: 80%;
+    
     padding: 1rem;
-    border: 2px solid var(--ForrestGreen);
+    border: 2px solid var(--blue);
 }
 /*Fim do Header*/
 
 /*Começo do Sobre mim*/
 
 #sobre-mim{
-    background-color: #228B22;
+    background-color: #6d8ce8;
     padding: 2rem;
 }
 #sobre-mim h2{
