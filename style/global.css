@@ -44,10 +44,11 @@ li{
 }
 
 .imagens {
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    gap:  0.5rem;
-    padding-top: 5rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:  2rem;
+    padding-top: 2rem;
     
 }
 
@@ -111,16 +112,17 @@ header{
 }
 
 header .inner-content{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+   
     align-items: center;
     height: 100%;
     min-height: 60vh;
+    padding-inline: 1rem;
 }
 
 header .left-side{
-    display:grid;
+    display:fle;
     gap :1rem
 }
 
@@ -140,13 +142,14 @@ header .left-side .links, #portifolio .projects .project .links{
 
 header .right-side{
     text-align: right;
+    align-self: flex-end;
+    margin-right: 1rem;
 }
 
 header .right-side img{
     max-width: 350px;
     border-radius: 80%;
-    
-    padding: 1rem;
+    padding: 5px;
     border: 2px solid var(--blue);
 }
 /*Fim do Header*/
